@@ -18,7 +18,7 @@
         Route="Facilities" />
 
         <ShellContent
-        Title="Facilities"
+        Title="Contact Us"
         ContentTemplate="{DataTemplate local:ContactUs}"
         Route="ContactUs" />
     </TabBar>
