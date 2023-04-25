@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Final.LogIn"
+             Title="LogIn">
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <StackPanel Margin="20">
+                <TextBox x:Name="UsernameTextBox" PlaceholderText="Username" Margin="0 0 0 10" />
+                <PasswordBox x:Name="PasswordBox" PlaceholderText="Password" Margin="0 0 0 10" />
+                <Button x:Name="LoginButton" Content="Log in" Click="LoginButton_Click" />
+            </StackPanel>
+
+            <TextBlock x:Name="ErrorMessage" Grid.Row="1" Margin="20" Foreground="Red" Visibility="Collapsed" />
+
+        </Grid>
+
+    </VerticalStackLayout>
+</ContentPage>
