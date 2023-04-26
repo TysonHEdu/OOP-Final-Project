@@ -50,7 +50,7 @@
                    VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
                    BackgroundColor="DarkCyan" Padding="10" Margin="0,0,0,15"
                    FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
-            <Button x:Name="OrderButton" Grid.Row="2" Grid.Column="2" Text="Order" Clicked="OrderButton_Clicked"/>
+            <Button x:Name="DumbbellOrderButton" Grid.Row="2" Grid.Column="2" Text="Order" Clicked="OrderButton_Clicked"/>
             <!--Treadmill-->
             <Label x:Name="Treadmill" Grid.Row="3" Grid.Column="0" Text="Treadmill" 
                    VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
@@ -60,7 +60,7 @@
                    VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
                    BackgroundColor="DarkCyan" Padding="10" Margin="0,0,0,15"
                    FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
-            <Button x:Name="OrderButton" Grid.Row="3" Grid.Column="2" Text="Order" Clicked="OrderButton_Clicked"/>
+            <Button x:Name="TreadmillOrderButton" Grid.Row="3" Grid.Column="2" Text="Order" Clicked="OrderButton_Clicked"/>
         </Grid>
     </VerticalStackLayout>
     </ScrollView>
