@@ -13,7 +13,15 @@ public partial class LogIn : ContentPage
         string password = this.Password.Text;
 
 
-        DisplayAlert("Hello" , username + " Logged In ", "Close");
+        if (Username is null)
+            DisplayAlert("Denied.", "No Entry", "Try Again");
+        else if (password is null)
+            DisplayAlert("Denied.", "No Entry", "Try Again");
+        else if (password.Equals("Password"))
+            DisplayAlert("Hello", username + " Logged In ", "Close");
+        else
+            DisplayAlert("Denied", "", "Invalid Login");
+        
     }
 }
 public class User

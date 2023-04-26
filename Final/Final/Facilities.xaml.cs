@@ -4,7 +4,6 @@ namespace Final;
 
 public partial class Facilities : ContentPage
 {
-	int count = 0;
 	public Facilities()
 	{
 		InitializeComponent();
@@ -12,6 +11,6 @@ public partial class Facilities : ContentPage
 
     private void OrderButton_Clicked(object sender, EventArgs e)
     {
-		DisplayAlert("1", "Has Been Ordered", "Close");
+		DisplayAlert("Order Placed", " ", "Close");
     }
 }
