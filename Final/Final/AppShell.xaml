@@ -6,11 +6,6 @@
     xmlns:local="clr-namespace:Final"
     Shell.FlyoutBehavior="Disabled">
     <TabBar>
-       
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
 
         <ShellContent
         Title="Log In"

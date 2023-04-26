@@ -4,18 +4,17 @@
              x:Class="Final.LogIn"
              Title="LogIn">
 
-
+    
     <ScrollView>
         <VerticalStackLayout>
             <Label Text="Log In" FontSize="Large" HorizontalOptions="Center" Margin="0,50,0,20"/>
             <Entry Placeholder="Username" Margin="40"/>
             <Entry Placeholder="Password" IsPassword="True" Margin="40"/>
             <Button Text="Log In" HorizontalOptions="Center" Margin="0,40,0,0"/>
+            <!--Clicked="OnLoginButtonClicked"/> -->
         </VerticalStackLayout>
     </ScrollView>
 
+
 </ContentPage>
-<ShellContent
-        Title="Log In"
-        ContentTemplate="{DataTemplate local:LogIn}"
-        Route="LogIn" />
+

@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Final.Facilities"
              Title="Facilities">
+
+
     <VerticalStackLayout>
         <Label Text="Facilities" FontSize="Large" HorizontalOptions="Center" Margin="0,50,0,20"/>
         <CollectionView ItemsSource="{Binding Facilities}">
