@@ -4,21 +4,17 @@
              x:Class="Final.LogIn"
              Title="LogIn">
 
-
-    <ScrollView>
-        
-        <Grid>
-            
-            <Grid.RowDefinitions>
-                <RowDefinition Height="200" />
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="150" />
-            </Grid.ColumnDefinitions>
-
-        </Grid>
-        
-    </ScrollView>
     
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Log In" FontSize="Large" HorizontalOptions="Center" Margin="0,50,0,20"/>
+            <Entry Placeholder="Username" Margin="40"/>
+            <Entry Placeholder="Password" IsPassword="True" Margin="40"/>
+            <Button Text="Log In" HorizontalOptions="Center" Margin="0,40,0,0"/>
+            <!--Clicked="OnLoginButtonClicked"/> -->
+        </VerticalStackLayout>
+    </ScrollView>
+
+
 </ContentPage>
+

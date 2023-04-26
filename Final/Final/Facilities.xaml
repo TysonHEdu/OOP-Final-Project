@@ -5,16 +5,17 @@
              Title="Facilities">
 
 
-    <ScrollView>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="200" />
-            </Grid.RowDefinitions>
-            
-            <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="150" />
-            </Grid.ColumnDefinitions>
-     
-        </Grid>
-    </ScrollView>
+    <VerticalStackLayout>
+        <Label Text="Facilities" FontSize="Large" HorizontalOptions="Center" Margin="0,50,0,20"/>
+        <CollectionView ItemsSource="{Binding Facilities}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10">
+                        <Label Text="{Binding Name}" FontSize="Large" />
+                        <Label Text="{Binding Description}" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
 </ContentPage>
