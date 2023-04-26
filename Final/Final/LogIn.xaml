@@ -8,7 +8,7 @@
     
     <ScrollView>
         <VerticalStackLayout>
-            <Label Text="Log In" FontSize="Large" HorizontalOptions="Center" Margin="0,50,0,20"/>
+            <Label Text="Log In" FontSize="Large" HorizontalOptions="Center" Margin="0,50,0,20" TextColor="Black"/>
             <Entry x:Name="Username" Margin="10" WidthRequest="300" BackgroundColor="Coral"/>
             <Entry x:Name="Password" IsPassword="True" Margin="10" WidthRequest="300" BackgroundColor="LightCoral"/>
             <Button Text="Log In" HorizontalOptions="Center" Margin="0,40,0,0" Clicked="Button_Clicked"/> 

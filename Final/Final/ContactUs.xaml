@@ -10,7 +10,7 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-            <Label Text="Employee Contacts" FontSize="Large" HorizontalOptions="Center" Margin="0,0,0,40"/>
+            <Label Text="Employee Contacts" FontSize="Large" HorizontalOptions="Center" Margin="0,0,0,40" TextColor="Black"/>
             <Grid BackgroundColor="LightBlue">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="60"/>
