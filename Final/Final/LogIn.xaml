@@ -3,15 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
              x:Class="Final.LogIn"
              Title="Log In"
-             BackgroundColor="Orange">
+             BackgroundColor="LightYellow">
 
     
     <ScrollView>
         <VerticalStackLayout>
             <Label Text="Log In" FontSize="Large" HorizontalOptions="Center" Margin="0,50,0,20"/>
-            <Entry x:Name="Username" Margin="10" WidthRequest="150" BackgroundColor="Coral"/>
-            <Entry x:Name="Password" IsPassword="True" Margin="10" WidthRequest="150" BackgroundColor="LightCoral"/>
+            <Entry x:Name="Username" Margin="10" WidthRequest="300" BackgroundColor="Coral"/>
+            <Entry x:Name="Password" IsPassword="True" Margin="10" WidthRequest="300" BackgroundColor="LightCoral"/>
             <Button Text="Log In" HorizontalOptions="Center" Margin="0,40,0,0" Clicked="Button_Clicked"/> 
+            <Image Source="gym_logo.png" MaximumHeightRequest="378" MaximumWidthRequest="288"/>
+
+
         </VerticalStackLayout>
     </ScrollView>
 
