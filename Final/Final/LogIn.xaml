@@ -6,19 +6,21 @@
 
 
     <ScrollView>
-        
         <Grid>
-            
-            <Grid.RowDefinitions>
-                <RowDefinition Height="200" />
-            </Grid.RowDefinitions>
 
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="150" />
-            </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="600" />
+                </Grid.RowDefinitions>
 
-        </Grid>
-        
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="450" />
+                </Grid.ColumnDefinitions>
+
+                <Entry x:Name="UserName" Grid.Row="0" Grid.Column="0" HeightRequest="200"/>
+                <Entry x:Name="Password" Grid.Row="1" Grid.Column="0" HeightRequest="200"/>
+                <Button x:Name="Enter" Grid.Row="2" Grid.Column="0" Text="Log In" HeightRequest="200"/>
+
+            </Grid>
     </ScrollView>
     
 </ContentPage>
