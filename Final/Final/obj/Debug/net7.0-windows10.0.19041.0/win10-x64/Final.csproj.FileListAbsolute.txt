@@ -325,3 +325,4 @@ C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-w
 C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Interop.Accessibility.dll
 C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Interop.AccessibilityCplAdminLib.dll
 C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Final.csproj.ResolveComReference.cache
+C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym_logo.scale-100.png
