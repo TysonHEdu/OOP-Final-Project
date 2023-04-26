@@ -5,18 +5,63 @@
              Title="Facilities"
              BackgroundColor="LightYellow">
 
-
+    <ScrollView>
     <VerticalStackLayout>
         <Label Text="Facilities" FontSize="Large" HorizontalOptions="Center" Margin="0,50,0,20"/>
-        <CollectionView ItemsSource="{Binding Facilities}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout Padding="10">
-                        <Label Text="{Binding Name}" FontSize="Large" />
-                        <Label Text="{Binding Description}" />
-                    </StackLayout>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+        <Grid BackgroundColor="DimGrey">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="150"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <!--Item--> <ColumnDefinition Width="1*"/>
+                <!--Description--> <ColumnDefinition Width="2*"/>
+                <!--Button--> <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+               <!--Info Row-->
+            <Label x:Name="EquipmentName" Grid.Row="0" Grid.Column="0" Text="Equipment Name" 
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                   BackgroundColor="DarkCyan" Padding="10" Margin="0,0,0,15"
+                   FontSize="Large"/>
+            <Label x:Name="EquipmentDescription" Grid.Row="0" Grid.Column="1" Text="Equipment Description" 
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                   BackgroundColor="DarkCyan" Padding="10" Margin="0,0,0,15"
+                   FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <!--Elliptical-->
+            <Label x:Name="Elliptical" Grid.Row="1" Grid.Column="0" Text="Elliptical" 
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                   BackgroundColor="DarkCyan" Padding="10" Margin="0,0,0,15"
+                   FontSize="Large"/>
+            <Label x:Name="EllipticalDescription" Grid.Row="1" Grid.Column="1" Text="A Stationary Running Device, No Assistance or Belts, Can Increase Resistance" 
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                   BackgroundColor="DarkCyan" Padding="10" Margin="0,0,0,15" WidthRequest="450"
+                   FontSize="Medium"/>
+            <Button x:Name="EllipticalOrderButton" Grid.Row="1" Grid.Column="2" Text="Order" 
+                    Clicked="OrderButton_Clicked"/>
+            <!--Dumbbells -->
+            <Label x:Name="Dumbbells" Grid.Row="2" Grid.Column="0" Text="Dumbbell" 
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                   BackgroundColor="DarkCyan" Padding="10" Margin="0,0,0,15"
+                   FontSize="Large"/>
+            <Label x:Name="DumbbellDescription" Grid.Row="2" Grid.Column="1" Text="Manually Lifted Weights" 
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                   BackgroundColor="DarkCyan" Padding="10" Margin="0,0,0,15"
+                   FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <Button x:Name="OrderButton" Grid.Row="2" Grid.Column="2" Text="Order" Clicked="OrderButton_Clicked"/>
+            <!--Treadmill-->
+            <Label x:Name="Treadmill" Grid.Row="3" Grid.Column="0" Text="Treadmill" 
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                   BackgroundColor="DarkCyan" Padding="10" Margin="0,0,0,15"
+                   FontSize="Large"/>
+            <Label x:Name="TreadmillDescription" Grid.Row="3" Grid.Column="1" Text="Automated Running Machine, Uses a belt, Adjustable speed and Incline" 
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                   BackgroundColor="DarkCyan" Padding="10" Margin="0,0,0,15"
+                   FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <Button x:Name="OrderButton" Grid.Row="3" Grid.Column="2" Text="Order" Clicked="OrderButton_Clicked"/>
+        </Grid>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

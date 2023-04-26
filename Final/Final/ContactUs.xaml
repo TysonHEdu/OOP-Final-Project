@@ -25,24 +25,48 @@
                     <ColumnDefinition Width="25*"/>
                 </Grid.ColumnDefinitions>
                 <!--Info Row-->
-                <Label x:Name="FirstName" Grid.Row="0" Grid.Column="0" Text="Trainer First Name" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
-                <Label x:Name="LastName" Grid.Row="0" Grid.Column="1" Text="Trainer Last Name" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/> 
+                <Label x:Name="FirstName" Grid.Row="0" Grid.Column="0" Text="Trainer First Name" 
+                       VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                       BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
+                <Label x:Name="LastName" Grid.Row="0" Grid.Column="1" Text="Trainer Last Name"
+                       VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                       BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/> 
                 <!--Trainer 1 Row-->
-                <Label x:Name="Trainer1F" Grid.Row="1" Grid.Column="0" Text="Bob" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
-                <Label x:Name="Trainer1L" Grid.Row="1" Grid.Column="1" Text="Layabout" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
-                <Button x:Name="Trainer1Contact" Grid.Row="1" Grid.Column="2" Text="Contact" Clicked="Trainer1Contact_Clicked" Margin="0,0,0,15"/>
+                <Label x:Name="Trainer1F" Grid.Row="1" Grid.Column="0" Text="Bob" 
+                       VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                       BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
+                <Label x:Name="Trainer1L" Grid.Row="1" Grid.Column="1" Text="Layabout" 
+                       VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                       BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
+                <Button x:Name="Trainer1Contact" Grid.Row="1" Grid.Column="2" Text="Contact" 
+                        Clicked="Trainer1Contact_Clicked" Margin="0,0,0,15"/>
                 <!--Trainer 2 Row-->
-                <Label x:Name="Trainer2F" Grid.Row="2" Grid.Column="0" Text="Larry" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
-                <Label x:Name="Trainer2L" Grid.Row="2" Grid.Column="1" Text="Layabout" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
-                <Button x:Name="Trainer2Contact" Grid.Row="2" Grid.Column="2" Text="Contact" Clicked="Trainer2Contact_Clicked" Margin="0,0,0,15"/>
+                <Label x:Name="Trainer2F" Grid.Row="2" Grid.Column="0" Text="Larry" 
+                       VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                       BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
+                <Label x:Name="Trainer2L" Grid.Row="2" Grid.Column="1" Text="Layabout" 
+                       VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                       BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
+                <Button x:Name="Trainer2Contact" Grid.Row="2" Grid.Column="2" Text="Contact" 
+                        Clicked="Trainer2Contact_Clicked" Margin="0,0,0,15"/>
                 <!--Trainer 3 Row-->
-                <Label x:Name="Trainer3F" Grid.Row="2" Grid.Column="0" Text="Jill" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
-                <Label x:Name="Trainer3L" Grid.Row="2" Grid.Column="1" Text="Valentine" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
-                <Button x:Name="Trainer3Contact" Grid.Row="2" Grid.Column="2" Text="Contact" Clicked="Trainer3Contact_Clicked" Margin="0,0,0,15"/>
+                <Label x:Name="Trainer3F" Grid.Row="2" Grid.Column="0" Text="Jill" 
+                       VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                       BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
+                <Label x:Name="Trainer3L" Grid.Row="2" Grid.Column="1" Text="Valentine" 
+                       VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                       BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
+                <Button x:Name="Trainer3Contact" Grid.Row="2" Grid.Column="2" Text="Contact" 
+                        Clicked="Trainer3Contact_Clicked" Margin="0,0,0,15"/>
                 <!--Trainer 4 Row-->
-                <Label x:Name="Trainer4F" Grid.Row="3" Grid.Column="0" Text="Albert" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
-                <Label x:Name="Trainer4L" Grid.Row="3" Grid.Column="1" Text="Wesker" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
-                <Button x:Name="Trainer4Contact" Grid.Row="3" Grid.Column="2" Text="Contact" Clicked="Trainer4Contact_Clicked" Margin="0,0,0,15"/>
+                <Label x:Name="Trainer4F" Grid.Row="3" Grid.Column="0" Text="Albert" 
+                       VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                       BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
+                <Label x:Name="Trainer4L" Grid.Row="3" Grid.Column="1" Text="Wesker" 
+                       VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                       BackgroundColor="LightBlue" Padding="10" Margin="0,0,0,15"/>
+                <Button x:Name="Trainer4Contact" Grid.Row="3" Grid.Column="2" Text="Contact" 
+                        Clicked="Trainer4Contact_Clicked" Margin="0,0,0,15"/>
             </Grid>
         </VerticalStackLayout>
     </ScrollView>
