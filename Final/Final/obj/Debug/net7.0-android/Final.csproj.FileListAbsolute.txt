@@ -1000,3 +1000,6 @@ C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-a
 C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-android\android\bin\packaged_resources
 C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-android\android\src\com\companyname\final\R.java
+C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-android\Interop.Accessibility.dll
+C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-android\Interop.AccessibilityCplAdminLib.dll
+C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-android\Final.csproj.ResolveComReference.cache

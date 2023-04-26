@@ -267,3 +267,6 @@ C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-i
 C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-ios\iossimulator-x64\Final.csproj.CopyComplete
 C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-ios\iossimulator-x64\Final.genruntimeconfig.cache
 C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-ios\iossimulator-x64\ref\Final.dll
+C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-ios\iossimulator-x64\Interop.Accessibility.dll
+C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-ios\iossimulator-x64\Interop.AccessibilityCplAdminLib.dll
+C:\Users\Tyson\Documents\GitHub\OOP-Final-Project\Final\Final\obj\Debug\net7.0-ios\iossimulator-x64\Final.csproj.ResolveComReference.cache

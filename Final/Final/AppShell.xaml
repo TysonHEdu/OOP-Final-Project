@@ -8,6 +8,11 @@
     <TabBar>
         
     <ShellContent
+        Title="Log In"
+        ContentTemplate="{DataTemplate local:LogIn}"
+        Route="LogIn" />
+        
+    <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
@@ -21,5 +26,7 @@
         Title="Contact Us"
         ContentTemplate="{DataTemplate local:ContactUs}"
         Route="ContactUs" />
+
+
     </TabBar>
 </Shell>
