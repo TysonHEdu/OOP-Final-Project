@@ -12,6 +12,7 @@ public partial class LogIn : ContentPage
         string username = this.Username.Text;
         string password = this.Password.Text;
 
+
         DisplayAlert("Hello" , username + " Logged In ", "Close");
     }
 }

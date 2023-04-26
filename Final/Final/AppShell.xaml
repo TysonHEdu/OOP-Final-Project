@@ -18,7 +18,7 @@
         Route="Facilities" />
 
         <ShellContent
-        Title="Contact Us"
+        Title="Employees"
         ContentTemplate="{DataTemplate local:ContactUs}"
         Route="ContactUs" />
 
